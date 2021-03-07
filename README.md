@@ -24,11 +24,11 @@ Eine einfacher bluetooth player (eine light version von [nicokaiser/rpi-audio-re
 
 ### Bluetooth
 
-Bluetooth wird eingerichet und jede Kopplngsanfrage automatisch genemigt, und aktiviert Bluetooth audio playback mit der hife von  [BlueALSA](https://github.com/Arkq/bluez-alsa). 
-Ein script wird installiert was das den pi wärend er verbunden ist für andere Bluetoothgeräte unsichtbar macht.
+Bluetooth wird eingerichet und jede Kopplungsanfrage automatisch genemigt, und aktiviert Bluetooth audio playback mit der hife von  [BlueALSA](https://github.com/Arkq/bluez-alsa). 
+Ein script wird installiert was das den pi wärend er mit einem Gerät  verbunden ist für andere Bluetoothgeräte unsichtbar macht.
 
 ##### Bluetooth/Anzeige  Name ändern
-Um den Anzeigename zu änder einfach ```  sudo ./name.sh  ``` ausführen und neue Namen eingeben.
+Um den Anzeigename zu änder einfach ```  sudo ./name.sh  ``` ausführen und einen neuen Namen eingeben.
 
 
 ### UPnP

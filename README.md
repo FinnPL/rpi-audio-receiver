@@ -14,15 +14,14 @@ Eine einfacher bluetooth player
 - [Lautsprecher](https://www.amazon.de/Visaton-VS-FR7-Lautsprecher-Universal-130-20-000%C2%B0Hz/dp/B004GA0LFY/ref=sr_1_21?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=lautsprecher+raspberry+pi&qid=1615143122&sr=8-21) [(per aux)](https://www.amazon.de/1-5m-3-5mm-mono-Stecker-auf/dp/B000L0Z9Y6/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9GLDSG0XFVNV&dchild=1&keywords=mono+aux+kabel&qid=1615143192&sprefix=mono+aux%2Caps%2C189&sr=8-3)
 
 ## Installation
+1. ``` sudo git clone https://github.com/Scotch-btw/rpi-audio-receiver.git ```
+2. ```  sudo ./install.sh  ```
 
-The installation script asks whether to install each component.
+### Für einen Benutzerdefinierte Installation
 
-    wget -q https://github.com/nicokaiser/rpi-audio-receiver/archive/main.zip
-    unzip main.zip
-    rm main.zip
+1. ``` sudo git clone https://github.com/Scotch-btw/rpi-audio-receiver.git ```
+2. ```  sudo ./install.sh --Benutzerdefiniert  ```
 
-    cd rpi-audio-receiver-main
-    ./install.sh
 
 ### Basic setup
 

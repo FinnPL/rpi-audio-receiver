@@ -1,6 +1,6 @@
 # Raspberry Pi Bluetooth-box
 
-Eine einfacher bluetooth player eine (light version von [nicokaiser/rpi-audio-receiver](https://github.com/nicokaiser/rpi-audio-receiver)
+Eine einfacher bluetooth player (eine light version von [nicokaiser/rpi-audio-receiver](https://github.com/nicokaiser/rpi-audio-receiver))
 
 ## Features
 

@@ -1,16 +1,17 @@
-# Raspberry Pi Audio Receiver
+# Raspberry Pi Bluetooth-box
 
-A simplyfied, light weight audio receiver with Bluetooth (A2DP), AirPlay, Spotify Connect and UPnP.
+Eine einfacher bluetooth player
 
 ## Features
 
-Devices like phones, tablets and computers can play audio via this receiver.
+1. Einfache Installation in zwei schritten.
+1. Mit jedem Bluetoothgerät compatibel.
 
-## Requirements
+## Voraussetzungen
 
-- Raspberry Pi with Bluetooth support (tested with Raspberry Pi 3, 4 and Zero W) or USB dongle (highly recommended!)
-- Raspberry Pi OS Buster Lite (tested with August 2020 version)
-- Internal audio, HDMI, USB or I2S Audio adapter (tested with [Adafruit USB Audio Adapter](https://www.adafruit.com/product/1475),  [pHAT DAC](https://shop.pimoroni.de/products/phat-dac), and [HifiBerry DAC+](https://www.hifiberry.com/products/dacplus/))
+- [Raspberry Pi mit Bluetooth] (https://www.amazon.de/Raspberry-Pi-ARM-Cortex-A72-Bluetooth-Micro-HDMI/dp/B07TC2BK1X/ref=sr_1_3?adgrpid=69761139783&dchild=1&gclid=EAIaIQobChMIiPjThOue7wIV0QWiAx0YhQkGEAAYASAAEgLWaPD_BwE&hvadid=391640769758&hvdev=c&hvlocphy=1004054&hvnetw=g&hvqmt=b&hvrand=3107567109491450440&hvtargid=kwd-24776539960&hydadcr=16224_1988312&keywords=raspberry+pi&qid=1615142599&sr=8-3)     
+- [Raspberry Pi OS] (https://www.raspberrypi.org/software/)
+- [Lautsprecher](https://www.amazon.de/Visaton-VS-FR7-Lautsprecher-Universal-130-20-000%C2%B0Hz/dp/B004GA0LFY/ref=sr_1_21?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=lautsprecher+raspberry+pi&qid=1615143122&sr=8-21) [(per aux)](https://www.amazon.de/1-5m-3-5mm-mono-Stecker-auf/dp/B000L0Z9Y6/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9GLDSG0XFVNV&dchild=1&keywords=mono+aux+kabel&qid=1615143192&sprefix=mono+aux%2Caps%2C189&sr=8-3)
 
 ## Installation
 

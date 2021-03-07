@@ -1,9 +1,9 @@
 #!/bin/bash -e
 
-if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
+if [[ $(id -u) -ne 0 ]] ; then echo "Bitte als Admin (sudo) ausführen" ; exit 1 ; fi
 
 echo
-echo -n "Do you want to install UPnP renderer (gmrender-resurrect)? [y/N] "
+echo -n "Soll UPnP renderer installiert weden (gmrender-resurrect)? [y/N] "
 read REPLY
 if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
 

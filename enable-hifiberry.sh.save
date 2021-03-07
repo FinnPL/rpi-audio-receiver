@@ -1,9 +1,9 @@
 #!/bin/bash -e
 
-if [[ $(id -u) -ne 0 ]] ; then echo "Bitte als Adminestrator (sudo)ausführen " ; exit 1 ; fi
+if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
 
 echo
-echo -n "Soll HiFiBerry device tree overlay und  ALSA configuration activiert werden? [y/N] "
+echo -n "Do you want to enable HiFiBerry device tree overlay and ALSA configuration? [y/N] "
 read REPLY
 if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
 
@@ -63,3 +63,4 @@ EOF
 cat /boot/config.txt | grep -vi "dtparam=audio" | grep -vi hifiberry >/tmp/config.txt
 echo dtoverlay=hifiberry-${CARD} >>/tmp/config.txt
 mv /tmp/config.txt /boot/config.txt
+

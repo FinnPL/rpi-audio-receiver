@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-#read -p "Hostname [$(hostname)]: " HOSTNAME
+#read -p "Hostname [$(hostname)]: " HOSTNAME  fffffffff
 #sudo raspi-config nonint do_hostname ${HOSTNAME:-$(hostname)}
 
 #CURRENT_PRETTY_HOSTNAME=$(hostnamectl status --pretty)

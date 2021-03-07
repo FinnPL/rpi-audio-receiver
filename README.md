@@ -22,29 +22,24 @@ Eine einfacher bluetooth player (eine light version von [nicokaiser/rpi-audio-re
 1. ``` sudo git clone https://github.com/Scotch-btw/rpi-audio-receiver.git ```
 2. ```  sudo ./install.sh --Benutzerdefiniert  ```
 
-
-### Basic setup
-
-Lets you choose the hostname and the visible device name ("pretty hostname") which is displayed as Bluetooth name, in AirPlay clients and in Spotify.
-
 ### Bluetooth
 
-Sets up Bluetooth, adds a simple agent that accepts every connection, and enables audio playback through [BlueALSA](https://github.com/Arkq/bluez-alsa). A udev script is installed that disables discoverability while connected.
+Bluetooth wird eingerichet und jede Kopplngsanfrage automatisch genemigt, und aktiviert Bluetooth audio playback mit der hife von  [BlueALSA](https://github.com/Arkq/bluez-alsa). 
+Ein script wird installiert was das den pi wärend er verbunden ist für andere Bluetoothgeräte unsichtbar macht.
+
+##### Bluetooth/Anzeige  Name ändern
+Um den Anzeigename zu änder einfach ```  sudo ./name.sh  ``` ausführen und neue Namen eingeben.
 
 
 ### UPnP
 
-Installs [gmrender-resurrect](http://github.com/hzeller/gmrender-resurrect) UPnP Renderer.
+Installiert [gmrender-resurrect](http://github.com/hzeller/gmrender-resurrect) UPnP Renderer.
 
 ### Snapcast
 
-Installs [snapclient](https://github.com/badaix/snapcast), the client component of the Snapcast Synchronous multi-room audio player.
+Installiert [snapclient](https://github.com/badaix/snapcast), the client component of the Snapcast Synchronous multi-room audio player.
 
-### Read-only mode
-
-To avoid SD card corruption when powering off, you can boot Raspberry Pi OS in read-only mode. This is described by Adafruit in [this tutorial](https://learn.adafruit.com/read-only-raspberry-pi/) and cannot be undone.
-
-## Limitations
+## Einschränkungen
 
 - Only one Bluetooth device can be connected at a time, otherwise interruptions may occur.
 - The device is always open, new clients can connect at any time without authentication.

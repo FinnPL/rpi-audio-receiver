@@ -17,7 +17,7 @@ Eine einfacher bluetooth player
 1. ``` sudo git clone https://github.com/Scotch-btw/rpi-audio-receiver.git ```
 2. ```  sudo ./install.sh  ```
 
-### Für einen Benutzerdefinierte Installation
+##### Für einen Benutzerdefinierte Installation
 
 1. ``` sudo git clone https://github.com/Scotch-btw/rpi-audio-receiver.git ```
 2. ```  sudo ./install.sh --Benutzerdefiniert  ```

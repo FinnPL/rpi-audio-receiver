@@ -5,8 +5,10 @@ if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
 echo "Namen Festlegen"
 ./name.sh
 echo "Powerknopf"
+sudo chmod +x install-powerbutton.sh
 ./install-powerbutton.sh
 echo "Lautsärkeknöpfe"
+sudo chmod +x ./install-Lautstärke.sh
 ./install-Lautstärke.sh
 
 

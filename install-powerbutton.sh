@@ -1,4 +1,4 @@
-vecho -n "Willst du ein poweroff button einrichten? [y/N] "
+echo -n "Willst du ein poweroff button einrichten? [y/N] "
 read REPLY
 if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
 sudo apt install python3 idle3

@@ -5,6 +5,9 @@ echo "Namen Festlegen"
 ./name.sh
 echo "Powerknopf"
 ./install-powerbutton.sh
+echo "Lautsärkeknöpfe"
+
+
 
 echo "Rasberry pi System update"
 apt update

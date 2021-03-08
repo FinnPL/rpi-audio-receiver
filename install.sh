@@ -15,4 +15,3 @@ echo "Neue module installieren"
 #./install-snapcast-client.sh
 ./install-pivumeter.sh
 ./enable-hifiberry.sh
-#./enable-read-only.sh
